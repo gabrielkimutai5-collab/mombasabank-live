@@ -48,7 +48,7 @@ body{font-family:Arial;background:#eef4ff;color:#0a2a4a}
 
 <div class="box">
 <h3>USSD • Bila Mtandao</h3>
-<div class="ussd">
+<div class="ussd" onclick="naviggator.clipboard.writeText('*384*19031#'); alert('USSD Copied: *384*19031# - Piga kwenye simu!')">
 <div class="code">*384*19031#</div>
 <div style="font-size:12px;margin-top:5px">Piga kwa huduma haraka bila internet</div>
 </div>
